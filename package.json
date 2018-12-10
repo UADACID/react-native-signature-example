@@ -1,0 +1,30 @@
+{
+  "name": "signature_pdf_gesture",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.6.1",
+    "react-native": "0.57.7",
+    "react-native-document-picker": "^2.1.0",
+    "react-native-file-selector": "^0.0.6",
+    "react-native-fs": "^2.12.1",
+    "react-native-pdf": "^5.0.9",
+    "react-native-pdf-lib": "^0.2.0",
+    "react-native-signature-capture": "^0.4.9",
+    "react-native-view-shot": "^2.5.0",
+    "rn-fetch-blob": "^0.10.13"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.49.2",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
